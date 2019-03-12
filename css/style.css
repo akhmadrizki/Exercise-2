@@ -1,0 +1,128 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+@font-face{
+	font-family: BlackDiamondsPersonalUse;
+	src:url(../font/BlackDiamondsPersonalUse.ttf);
+}
+@font-face{
+	font-family: GoogleSans-Regular;
+	src:url(../font/GoogleSans-Regular.ttf);
+}
+@font-face{
+	font-family: AlexBrush-Regular;
+	src:url(../font/AlexBrush-Regular.ttf);
+}
+.container-left{
+	width: 50%;
+	float: left;
+	height: 100vh;
+	background: #0096b5;
+}
+.title{
+	font-family: BlackDiamondsPersonalUse;
+	text-transform: capitalize;
+	color: #fff;
+	font-size: 62pt;
+}
+.title-name{
+	font-family: GoogleSans-Regular;
+	text-transform: capitalize;
+	color: #fff;
+	font-size: 32pt;
+	margin-top: 22px;
+}
+.sub-title{
+	font-family: GoogleSans-Regular;
+	text-transform: capitalize;
+	color: #fff;
+	font-size: 20pt;
+}
+.main{
+	width: 80%;
+	padding: 8px 0;
+	margin: 22% auto 0;
+	text-align: center;
+}
+.sosmed{
+	width: 50%;
+	margin: 4% auto 0;
+	padding: 5px 0;
+}
+.center{
+	margin-top: 20%;
+    color: #0096b5;
+}
+.main-sosmed{
+	width: 18%;
+    border-radius: 50px;
+    display: inline-block;
+    height: 60px;
+    margin-left: 1%;
+    background: #fff;
+    text-align: center;
+    transition: ease-in-out .3s;
+    transform: rotate(0);
+}
+.main-sosmed:hover{
+    transform: rotate(-360deg);
+}
+
+.container-right{
+	float: right;
+	width: 50%;
+	height: 100vh;
+	background: #fff;
+}
+.btn{
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	border-radius: 50%;
+	border: none;
+	outline: none;
+	outline-color: transparent;
+	margin: 4px;
+	color: #333;
+	font-size: 25px;
+}
+.btn:hover{
+	background: #bbb;
+	color: #fff;
+}
+.uniq{
+	width: 108px;
+    border-radius: 8px;
+}
+.uniq2{
+	height: 108px;
+    border-radius: 8px;
+    background: #E91E63;
+    color: #fff;
+}
+.uniq2:hover{
+	background: #E91E63;
+    color: #fff;
+}
+.textview{
+	width: 227px;
+    margin: 5px 2px;
+    font-size: 25px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    background-color: #a7a7a77d;
+    outline-color: transparent;
+    cursor: no-drop;
+}
+.main-calculator{
+	float: left;
+    padding: 14px;
+    background: #e8e8e8;
+    border-radius: 8px;
+    position: relative;
+    left: 30%;
+    top: 20%;
+    box-shadow: 0 0 18px rgba(90, 90, 90, 0.54);
+}
